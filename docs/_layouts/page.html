@@ -1,0 +1,49 @@
+<html lang="en">
+{% include head.html %}
+
+<body>
+	<div class="columns">
+		<div class="column is-one-fifth"></div>
+		<div class="column is-one-fifth is-left">
+			<a href="{{site.baseurl}}/">
+				<div class="top-section">
+					<img src="{{site.baseurl}}/assets/img/owl.svg" alt="">
+					<h1 class="title">Hedwig</h1>
+					<h2 class="subtitle">A simple notification service</h2>
+				</div>
+			</a>
+			<section class="section">
+				<div class="container">
+					<aside class="menu">
+						{% include menu.html %}
+					</aside>
+				</div>
+			</section>
+		</div>
+		<div class="column">
+			<section class="hero is-medium is-primary is-bold">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">
+							{{page.title}}
+						</h1>
+						<h2 class="subtitle">
+							{{page.subtitle}}
+						</h2>
+					</div>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<div class="content">
+						{{content}}
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	{% include foot.html %}
+</body>
+
+</html>

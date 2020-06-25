@@ -1,0 +1,30 @@
+- title: Introduction
+  subfolderitems:
+    - page: Welcome to Hedwig
+      url: /index.html
+    - page: Installation
+      url: /installation.html
+    - page: Building from Source
+      url: /building/index.html
+      subsubfolderitems:
+        - page: App
+          url: /building/app.html
+        - page: CLI
+          url: /building/cli.html
+        - page: Docs
+          url: /building/docs.html
+- title: Documentation
+  subfolderitems:
+    - page: Getting started with the Hedwig CLI
+      url: /docs/cli-start.html
+    - page: Using Hedwig without the CLI
+      url: /docs/no-cli.html
+    - page: Using Hedwig programatically
+- title: Legal
+  subfolderitems:
+    - page: License
+      url: /legal/license.html
+    - page: Attributions
+      url: /legal/attributions.html
+    - page: Privacy
+      url: /legal/privacy.html

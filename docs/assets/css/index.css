@@ -1,0 +1,32 @@
+body {
+	font-family: 'News Cycle', sans-serif;
+}
+
+.column {
+	padding: 0
+}
+
+.top-section {
+	text-align: center;
+	padding: 20px;
+}
+
+pre, pre code, code, kbd {
+	font-family: 'Space Mono', monospace;
+}
+
+div.highlight {
+	margin-bottom: 16px;
+}
+
+@media (min-width: 769px) {
+	.is-left {
+		background-color: #fafafa;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		overflow-y: scroll;
+	}
+}

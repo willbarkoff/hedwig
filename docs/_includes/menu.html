@@ -1,0 +1,19 @@
+{% for section in site.data.nav %}
+<p class="menu-label">{{section.title}}</p>
+{% if section.subfolderitems[0] %}
+<ul class="menu-list">
+	{% for link in section.subfolderitems %}
+	<li>
+		<a href="{{ site.baseurl }}{{ link.url }}">{{link.page}}</a>
+		{% if link.subsubfolderitems[0] %}
+		<ul>
+			{% for sublink in link.subsubfolderitems %}
+			<li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.page }}</a></li>
+			{% endfor %}
+		</ul>
+		{% endif %}
+	</li>
+	{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
