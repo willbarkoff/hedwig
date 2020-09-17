@@ -44,3 +44,24 @@ You can use this along with `cron` to make a makeshift calendar system! Say you 
 ```
 
 {% include push.html title="Upcoming class!" content="You have \"Defence Against the Dark Arts II\" in 5 minutes." %}
+
+You can learn more about all the options available with the Hedwig CLI using the `-help` flag.
+
+```shell
+$ hedwig -help
+Usage of hedwig:
+  -add-recipient-global string
+        Adds a recipient to the config file
+  -badge int
+        Number to put on the badge on in iOS app
+  -recipient string
+        The recipent of the message. If this isn\'t specified, it defaults to every recipeint in the config file
+  -sound string
+        The sound to play on iOS (default "default")
+  -title string
+        The title of the notification (default "Message from Hedwig!")
+  -ttl int
+        Time to live, in seconds, for the message
+  -version
+        Shows the version of the Hedwig CLI
+```
