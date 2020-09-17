@@ -37,7 +37,7 @@ $ hedwig -title "Upcoming class\!" "You have \"Introduction to Charms\" in 10 mi
 ```
 {% include push.html title="Upcoming class!" content="You have \"Introduction to Charms\" in 10 minutes." %}
 
-You can use this along with `cron` to make a makeshift calendar system! Say you have Defence Against the Dark Arts II monday through friday at 11am. You could add a Hedwig command to your `crontab` to notify you every day.
+You can use this along with `cron` to make a makeshift calendar system! Say you have Defence Against the Dark Arts II Monday through Friday at 11am. You could add a Hedwig command to your `crontab` to notify you every day.
 
 ```cron
 55 10 * * 1-5	hedwig -title "Upcoming class\!" "You have \"Defence Against the Dark Arts II\" in 5 minutes."
