@@ -19,6 +19,32 @@ div.highlight {
 	margin-bottom: 16px;
 }
 
+.push-notification {
+	width: 400px;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	padding: 7px;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.push-notification .heading {
+	letter-spacing: normal;
+	margin-bottom: 3px !important;
+	line-height: 15px;
+}
+
+.push-notification .heading img {
+	height: 15px;
+	width: 15px;
+	background-color: white;
+	padding: 2px;
+	border-radius: 2px;
+	margin-right: 3px;
+	margin-bottom: -1px;
+}
+
 @media (min-width: 769px) {
 	.is-left {
 		background-color: #fafafa;

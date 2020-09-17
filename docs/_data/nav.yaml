@@ -19,7 +19,6 @@
       url: /docs/cli-start.html
     - page: Using Hedwig without the CLI
       url: /docs/no-cli.html
-    - page: Using Hedwig programatically
 - title: Legal
   subfolderitems:
     - page: License
