@@ -25,6 +25,9 @@
       "supportsTablet": true,
       "bundleIdentifier": "dev.willbarkoff.hedwig"
     },
+    "android": {
+      "package": "dev.willbarkoff.hedwig"
+    },
     "notification": {
       "iosDisplayInForeground": true
     }
